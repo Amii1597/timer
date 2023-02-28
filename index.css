@@ -1,0 +1,62 @@
+*{
+    background-color: plum;
+}
+#hour{
+    background-color: #fff;
+    width: 40px;
+    height: 30px;
+}
+#minute{
+    background-color: #fff;
+    width: 40px;
+    height: 30px;
+}
+#sec{
+    background-color: #fff;
+    width: 40px;
+    height: 30px;
+}
+.container{
+    background-color: yellow;
+    
+}
+.input1{
+    display: flex;
+justify-content: center;
+
+}
+.top{
+    padding: 20px;
+    text-align: center;
+}
+.btn2{
+    border-radius: 40%;
+    width: 90px;
+    background-color: rgb(155, 228, 155);
+}
+.btn3{
+    border-radius: 40%;
+    width: 90px;
+background-color: rgb(230, 124, 124);
+}
+.btn4{
+    border-radius: 40%;
+    width: 90px;
+   background-color: rgb(130, 130, 216)
+   ;
+}
+.btn1{
+   text-align: center;
+   padding: 30px;
+   
+}
+.btn2:hover{
+background-color: green;
+
+}
+.btn3:hover{
+background-color: red;
+}
+.btn4:hover{
+background-color:blue;
+}

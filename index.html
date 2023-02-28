@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Counter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+      <div id="box" >
+        <p class="top" style="font-style: italic; color:  solid black; "><b>Timer Counter</b></p>
+        <!-- paragraph -->
+        <!-- <p id="hour-label" class="label"></p>
+        <p id="min-label" class="label"></p>
+        <p id="sec-label" class="label"></p> -->
+        <!-- //input -->
+        <div class="input1">
+          <input id="hour" type="number" max="99" min="0" value="00" class="time">
+        <p id="p1" class="semicolon">:</p>
+        <input id="minute" type="number" max="60" min="0" value="00" class="time">
+        <p id="p2" class="semicolon">:</p>
+        <input id="sec" type="number" max="60" min="0" value="00" class="time">
+        </div>
+        <!-- button -->
+     <div class="btn1">  
+       <button id="start" class="btn2">Start</button>
+      <button id="stop" class="btn3">Stop</button>
+      <button id="reset" class="btn4">Reset</button>
+      <h2 id="demo"></h2>
+      <audio id="audio" src="sound.mp3"></audio>
+    
+    </div>
+       
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
